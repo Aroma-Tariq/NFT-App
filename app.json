@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "RN Cryptostream App Theme",
+    "slug": "rn-cryptostream-app-theme",
+    "privacy": "public",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#251278"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appducks.cryptostream"
+    },
+    "android": {
+      "package": "com.appducks.cryptostream"
+    },
+    "description": "It is a Coinbase-like App. It presents real-time cryptocurrency data and all the trading info (price, vol, change, top crypto news). It also simulates wallets and transactions.​"
+  }
+}
